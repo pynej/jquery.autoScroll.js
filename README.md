@@ -14,10 +14,10 @@ simple fixed positioning.
 
 Sample Code:
 
-$("#element").autoScroll({ paddingTop: 30 });
+<pre>$("#element").autoScroll({ paddingTop: 30 });</pre>
 
 Make it snap instead of scroll.
-$("#element").autoScroll({ paddingTop: 30, animate: flase });
+<pre>$("#element").autoScroll({ paddingTop: 30, animate: flase });</pre>
 
 Adjust via padding instead of margins. (Usefull if the parent item has a fixed height.)
-$("#element").autoScroll({ paddingTop: 30, scrollMode: "padding" });
+<pre>$("#element").autoScroll({ paddingTop: 30, scrollMode: "padding" });</pre>
